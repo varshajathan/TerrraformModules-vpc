@@ -11,7 +11,7 @@ module "vpc" {
 
 terraform {
   backend "remote" {
-    organization = "your-org-name"
+    organization = "MyterraformPrj"
 
     workspaces {
       name = "vpc-project"
