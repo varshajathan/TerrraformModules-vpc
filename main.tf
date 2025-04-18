@@ -14,7 +14,7 @@ terraform {
     organization = "MyterraformPrj"
 
     workspaces {
-      name = "vpc-project"
+      name = "terraform-modules-vpc"
     }
   }
 
